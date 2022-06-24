@@ -1,0 +1,33 @@
+body{
+    background-color: #dc354557;
+    text-align: center;
+    padding: 20px;
+}
+.overall{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+ }
+  #sketchpad {
+    display: grid;
+    width: 510px;
+   height: 510px;
+    background-color: white;
+    box-shadow: 5px 5px 5px 5px #4a383a57;
+    grid-gap: 0;
+
+    }
+
+  .cells{
+    padding: 3px;
+    border: 1px solid #ddd;
+    text-align: center;
+    cursor: url('https://www.cursor.cc/cursor3d/6477.png'),auto;
+  }
+
+  .active{
+    background-color: black;
+  }
+
+ 

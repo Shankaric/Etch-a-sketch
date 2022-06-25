@@ -9,6 +9,14 @@ body{
     justify-content: center;
 
  }
+ .neon{
+  font-family: 'Smooch', cursive;
+  font-size: 30px;
+  text-shadow: 2px 2px orange;
+  background: -webkit-linear-gradient(rgb(243, 29, 179), rgb(190, 79, 146));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+ }
   #sketchpad {
     display: grid;
     width: 510px;
@@ -16,18 +24,25 @@ body{
     background-color: white;
     box-shadow: 5px 5px 5px 5px #4a383a57;
     grid-gap: 0;
-
+    cursor: crosshair;
     }
 
   .cells{
     padding: 3px;
     border: 1px solid #ddd;
     text-align: center;
-    cursor: url('https://www.cursor.cc/cursor3d/6477.png'),auto;
+   
   }
 
   .active{
     background-color: black;
   }
-
- 
+  .btn{
+    box-shadow: 3px 3px 3px 3px #4a383a57;
+  }
+ .btnall{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+ }

@@ -17,7 +17,7 @@ btnsktchpad.addEventListener("click", function ()
     divs[i].remove();
   }
 
-  let rows = prompt('how many grids do you need?');
+  let rows = prompt('How many grids do you need?');
 
   if (rows <= 64) {
     for (i = 0; i < (rows * rows); i++) {
@@ -105,8 +105,6 @@ btnsktchpad.addEventListener("click", function ()
       });
     });
   });
-
-
 
   
 });
